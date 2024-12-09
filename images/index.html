@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Grid Crash Course</title>
+  </head>
+  <body>
+    <header>
+      <div class="item">
+        <img id="kianpic1" src="/images/kian1.jpg" alt="kian">
+      </div>
+      <div class="item">
+        <h1>Kiki the Train Conductor</h1>
+        <h2>@KikiKT2 - 209 subscribers - 116 videos<br>
+          Welcome! This is a channel made for kids by a kid (and some help from mom)
+          In this
+          <button onclick="about.show()">... more</button>
+          
+            <dialog class="modal-body" id="about">
+              <h1><strong>About</strong></h1><br> 
+              <p>Welcome! This is a channel made for kids by a kid
+                (and some help from mom!) In this channel you will find video's of Kiki's 
+                Thomas and Friends trains, including the World's Strongest Engine videos and videos of his train collection.
+              </p><br>
+              <h1><strong>Channel details</strong></h1><br>
+              <img src="" alt="globe"> www.youtube.com/@KikiKT2<br>
+              <img src="" alt="subscribers"> 209 subscribers<br>
+              <img src="" alt="videos"> 116 videos<br>
+              <img src="" alt="views"> 65,000 views<br>
+              <img src="" alt="joined"> Joined Sep 7, 2023"          
+              <form method="dialog">
+                <button>Close</button>
+              </form>
+            </dialog>
+            
+        </h2>
+      </div>  
+    </header>
+
+    <nav class="nav-container">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Playlists</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+    </nav>
+    
+    <!-- <div class="horizontal-scroll-container">  -->
+      <!-- <div class="scroll">   -->
+        <div class="container">
+          <div class="itemx">        
+            <div class="time-label">6:05</div>
+            <a href="https://m.youtube.com/watch?v=x_0b72xf8zQ&t=90s"><img class="img-size" src="https://i.ytimg.com/vi/x_0b72xf8zQ/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-BIAC6AKKAgwIABABGFUgWyhlMA8=&rs=AOn4CLCP7yN3PWxzrsPCUmoJxcJD_mAI9Q" alt="Thomas and Friends Worlds Strongest Engines - Minis on the Rocket">  </a>
+            Thomas and Friends Worlds Strongest Engines - Minis on the Rocket
+          </div>
+          <div class="itemx">        
+            <div class="time-label">8:21</div>
+            <a href="https://m.youtube.com/watch?v=sAkmyUWd4ZI&t=43s"><img class="img-size" src="https://i.ytimg.com/vi/sAkmyUWd4ZI/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-BIAC6AKKAgwIABABGGUgWChNMA8=&rs=AOn4CLBEuI2Ug1EuM0u24vxl59ZlyX1wUQ" alt="Thomas and Friends Salty is Missing Part 4">  </a>
+            Thomas and Friends Salty is Missing Part 4
+            
+          </div>
+          <div class="itemx">        
+            <div class="time-label">19:38</div>
+            <a href="https://m.youtube.com/watch?v=kdBkkpDkbMs&t=16s"><img class="img-size" src="https://i.ytimg.com/vi/kdBkkpDkbMs/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhyIFEoNDAP&rs=AOn4CLALQizy5ty3wRoc7ZYixUzOg6foYQ" alt="Thomas & Friends Special Video 1 "Attack"">         </a>
+            Thomas & Friends Special Video 1 "Attack"
+          </div>
+          <div class="itemx">        
+            <div class="time-label">1:19</div>
+            <a href="https://m.youtube.com/watch?v=RIJf3jNTCH8"><img class="img-size" src="https://i.ytimg.com/vi/RIJf3jNTCH8/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhlIFMoRTAP&rs=AOn4CLDc3-RREz4aes4wIYDB3UMEDLYP4w" alt="Thomas and Friends - Thomas and the Magic Railroad Accidents and Crashes">  </a>
+            Thomas and Friends - Thomas and the Magic Railroad Accidents and Crashes
+          </div>
+          <div class="itemx">        
+            <div class="time-label">1:53</div>
+            <a href="https://m.youtube.com/watch?v=sSk9pE00zrA&t=24s"><img class="img-size" src="https://i.ytimg.com/vi/sSk9pE00zrA/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-BIAC6AKKAgwIABABGGUgVihIMA8=&rs=AOn4CLDK_dB9vkZ4-u4rYigWv2EpT1MXpg" alt="Thomas and Friends Salty is Missing Song Part 3"> </a>
+            Thomas and Friends Salty is Missing Song Part 3
+          </div>
+          <div class="itemx">        
+            <div class="time-label">5:29</div>
+            <a href="https://m.youtube.com/watch?v=9EzTR19FT8c&t=55s"><img class="img-size" src="https://i.ytimg.com/vi/9EzTR19FT8c/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhlIE8oQzAP&rs=AOn4CLDaZCJIMyXXE_u9rhixEFTTEWGE6w" alt="Thomas and Friends Salty is Missing Part 2">  </a>
+            Thomas and Friends Salty is Missing Part 2
+          </div>
+          <div class="itemx">        
+            <div class="time-label">8:19</div>
+            <a href="https://m.youtube.com/watch?v=5ZnR_5xEUmE&t=102s"><img class="img-size" src="https://i.ytimg.com/vi/5ZnR_5xEUmE/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhlIFUoSjAP&rs=AOn4CLBDo6LMnDh8c2McSFFLje35mBDkew" alt="Thomas and Friends Salty is Missing Part 1"> </a> 
+            Thomas and Friends Salty is Missing Part 1
+          </div>
+          <div class="itemx">        
+            <div class="time-label">10:49</div>
+            <a href="https://m.youtube.com/watch?v=ppGnbqDN7S8&t=200s"><img class="img-size" src="https://i.ytimg.com/vi/ppGnbqDN7S8/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhlIGUoZTAP&rs=AOn4CLClUANf6y3dbBzP5EpvKLAqLe784g" alt="Thomas & Friends - Slow Motion Accidents & Crashes Part 4">  </a>
+            Thomas & Friends - Slow Motion Accidents & Crashes Part 4
+          </div>
+          <div class="itemx">        
+            <div class="time-label">6:11</div>
+            <a href="https://m.youtube.com/watch?v=QQnLz3UTa3E&t=96s"><img class="img-size" src="https://i.ytimg.com/vi/QQnLz3UTa3E/mqdefault.jpg?sqp=-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDySVcNPew-NGzrk9tfbsfupE7dzQ" alt="Underwater Pixar Cars">  </a>
+            Underwater Pixar Cars
+          </div>
+          <div class="itemx">        
+            <div class="time-label">48:46</div>
+            <a href="https://m.youtube.com/watch?v=NHTLAuuHEGs&t=70s"><img class="img-size" src="https://i.ytimg.com/vi/NHTLAuuHEGs/mqdefault.jpg?sqp=-oaymwEmCMACELQB8quKqQMa8AEB-AH-BIAC6AKKAgwIABABGHIgTCg-MA8=&rs=AOn4CLCPVf_d0_ZAIxa50_vXxs-HV-WQqA" alt="Thomas & Friends Season 5 Accidents Remakes"> </a> 
+            Thomas & Friends Season 5 Accidents Remakes
+          </div>
+          <div class="itemx">        
+            <div class="time-label">8:16</div>
+            <a href="https://m.youtube.com/watch?v=mKwD1DCXQnQ&t=49s"><img class="img-size" src="https://i.ytimg.com/vi/mKwD1DCXQnQ/mqdefault.jpg?sqp=-oaymwEmCMACELQB8quKqQMa8AEB-AH-BIAC6AKKAgwIABABGBMgWih_MA8=&rs=AOn4CLBfriOoKoUOFOErhj-MZisaLYq_yA" alt="Thomas & Friends Season 4 Accidents Remake">  </a>
+            Thomas & Friends Season 4 Accidents Remake
+          </div>
+          <div class="itemx">        
+            <div class="time-label">23:18</div>
+            <a href="https://m.youtube.com/watch?v=ewsx3Ioa894"><img class="img-size" src="https://i.ytimg.com/vi/ewsx3Ioa894/mqdefault.jpg?sqp=-oaymwEmCMACELQB8quKqQMa8AEB-AH-BIAC6AKKAgwIABABGGUgZShlMA8=&rs=AOn4CLDYnDfCfXqJWvZobFfJ689oh19L2A" alt="Thomas & Friends Season 3 Accidents Remakes">  </a>
+            Thomas & Friends Season 3 Accidents Remakes
+          </div>
+        </div>
+
+
+          
+      </div>
+
+    </div>
+
+     
+  </body>
+</html>
+
+
+
+          <!-- <div class="itemx"> -->
+            
+            <!-- Thomas and Friends Worlds Strongest Engines - Minis on the Rocket -->
+          <!-- </div>           -->
+          <!-- <div class="itemx"> -->
+            
+            <!-- Thomas and Friends Worlds Strongest Engines - Minis on the Rocket -->
+          <!-- </div> -->
+          <!-- <div class="itemx"> -->
+            
+            
+            
+            
+            
+
+            <!-- Thomas and Friends Worlds Strongest Engines - Minis on the Rocket -->
+          <!-- </div> -->
+        </

@@ -42,3 +42,15 @@
     flex-wrap: wrap;
     
 }
+
+.target{
+    width: 100%;
+    height: 100%;
+    image-rendering: optimizeQuality;
+    object-fit: fill;
+}
+/* .container:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  } */

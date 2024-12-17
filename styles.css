@@ -64,12 +64,15 @@ body, html {
     border-radius: 2%;
     top: 73vh;
     left: 28vw; 
-    font-size: 25px;
     height: 22%; 
     width: 45%; 
     background-color: rgb(240, 69, 69);
     color: black;
-    font-size: 200px;
+    font-size: 85px;
     text-align: center;
     
+}
+
+audio {
+    display: none; 
 }

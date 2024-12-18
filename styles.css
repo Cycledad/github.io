@@ -66,13 +66,50 @@ body, html {
     left: 28vw; 
     height: 22%; 
     width: 45%; 
+    min-width: 732px;;
     background-color: rgb(240, 69, 69);
     color: black;
     font-size: 85px;
-    text-align: center;
+    text-align:center;
+    text-overflow: ellipsis;
+    
     
 }
 
 audio {
     display: none; 
+}
+
+.snow, .snow2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./images/snow.png");
+    background-position: 0 0;    
+
+}
+
+.snow{
+    background-size: 70em;
+    animation: snowfall 30s linear infinite;
+}
+
+.snow2{
+    background-size: 50em;
+    animation: snowfall2 30s linear infinite;
+    opacity: 0.5;
+}
+
+@keyframes snowfall{
+    100% {
+        background-position: 70em 70em;
+    }
+}
+
+@keyframes snowfall2 {
+    100% {
+        background-position: 50em 0em;
+    }
 }

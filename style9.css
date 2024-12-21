@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+       
+}
+
+.container {
+    max-width: 960px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title {
+    position: relative;
+    top: 10vh;
+    left: 20vw;
+    color: white;
+    
+}

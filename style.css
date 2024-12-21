@@ -1,30 +1,41 @@
 body {
     margin: 0;
     padding: 0;
+    margin: 0;
+
 }
 
 img {
     display: block;
-    max-width: 100%;
-    width: 25%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid red; */
-       
+    min-width: 200px;
+    max-width: 200px;
+    /* min-height: 200px; */
+    /* max-height: 200px; */
+    width: 200px;
+    height: 200px;
 }
 
-.container {
-    max-width: 960px;
-    margin-inline: auto;
+.container1 {
+   display:flex;   
+
+}
+
+.container1 div {
+    padding-left: 10px;
+
+}
+
+.container2 {
     display: flex;
-    flex-wrap: wrap;
+}
 
+.narrative1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(227, 238, 238);
 }
-.title {
-    position: relative;
-    top: 10vh;
-    left: 20vw;
-    color: white;
-    
+
+.redsanta {
+    color: red;
 }
+

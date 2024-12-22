@@ -1,0 +1,41 @@
+
+body{
+    background-color: cadetblue;
+}
+
+div.cls1 p{
+    background-color: aquamarine;
+}
+
+div.cls2 article{
+    color: crimson;
+}
+
+.col1{
+    color: black;
+    padding: 10px;
+}
+
+.col2{
+    color:crimson;
+    padding: 10px;
+}
+
+
+.col3{
+    color:wheat;
+    padding: 10px;
+    border: 1px;
+    border-style:solid;
+}
+
+
+
+
+.news{
+    display:block;
+    border: 15px;
+    border-style: solid;
+    
+    
+ }

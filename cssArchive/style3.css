@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.box{
+    border: 2px solid;
+    padding: 25px;    
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+/* use box-sizing: border-box to disregard any box padding and border 
+   this may allow text box to sit in 2 columns
+*/
+
+
+/* relative positioning  - position box relative to (0,0) */
+.box1{ 
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    top: 300px;  /* push down */
+    left: 1000px; /* push right */
+}
+
+

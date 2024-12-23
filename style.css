@@ -56,6 +56,11 @@ img{
 
 }
 
+.wrapper h1{
+    width: 65%;
+
+}
+
 .letter1{
    position: absolute;
    top: 5%;
@@ -63,6 +68,16 @@ img{
    max-width: 75%;
 
 
+    
+}
+
+textarea {
+    background-color:beige
+}
+
+.submit{
+    background-color: red;
+    color: white
     
 }
 
@@ -74,4 +89,6 @@ img{
     position:absolute;
     z-index: -1;
 }
+
+
 

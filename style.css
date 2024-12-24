@@ -1,94 +1,17 @@
-body {
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    background-position:top; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    background-image: url("./background.jpg");
-    max-width: 100%;
-    width: 100vh; */
-}
-.container1{
-    /* max-width: 960px;
-    margin-inline: auto; */
-    position: relative; 
-    background-color: aqua;
-    background-image: url("./letter.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    max-width: 100%;
-    height: 200px;
-    
-    
+.container{
+    /* max-width: 100vw; */
+    /* margin-inline: auto; */
 }
 
-.container2{
-    /* max-width: 960px;
-    margin-inline: auto; */
-    position: absolute; 
-    background-color: rgb(255, 85, 0);
-    top: 20%;
-    left: 20%;
-    max-width: 95px;
-    word-wrap: break-word;
-    
-    
-}
 
 img{
     display: block;
     max-width: 100%;
-}
+    width: 1000px;
+    height: auto;
+    border: 1px solid red;
+}  
 
-.letter{
-    position: absolute;
-    border: solid 5px red;
-    max-width: 100%;
-}
-
-.wrapper{
-    display: grid;
-    grid-template-columns: 1fr;
-    position: relative;
-
-}
-
-.wrapper h1{
-    width: 65%;
-
-}
-
-.letter1{
-   position: absolute;
-   top: 5%;
-   left: 5%;
-   max-width: 75%;
-
-
+h1{
     
 }
-
-textarea {
-    background-color:beige
-}
-
-.submit{
-    background-color: red;
-    color: white
-    
-}
-
-.letter form{
-    position: absolute;
-}
-
-.image{
-    position:absolute;
-    z-index: -1;
-}
-
-
-

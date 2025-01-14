@@ -2,6 +2,7 @@
     --timeDelay: 5s;
 }
 
+
 .fling-minislide {
     /* width:350px;  */
     width: 50vw;
@@ -11,6 +12,7 @@
     position:relative; 
     
 }
+
 
 .fling-minislide img{ 
     position:absolute;      
